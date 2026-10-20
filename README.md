@@ -17,7 +17,7 @@ Free-tier routing · MCP infrastructure · crypto micropayments · cost control 
 **Public, keyless MCP endpoint** (also in the official MCP Registry as `io.github.rustemmustafingovua-byte/free-web-mcp`):
 
 ```jsonc
-{ "mcp": { "free-web": { "type": "remote", "url": "https://48420f5263f10d.lhr.life/mcp", "enabled": true } } }
+{ "mcp": { "free-web": { "type": "remote", "url": "https://1ed0ec4c485eee.lhr.life/mcp", "enabled": true } } }
 ```
 
 ## Install the whole set (one command)
