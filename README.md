@@ -14,6 +14,14 @@ Free-tier routing · MCP infrastructure · crypto micropayments · cost control 
 
 ---
 
+## Install the whole set (one command)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/rustemmustafingovua-byte/opencode-free-stack/main/install.sh | bash
+```
+
+No npm login, no token, no API keys — every CLI installs from its release tarball.
+
 ## What I build
 
 Everything here is **MIT, tested, and solves a problem that breaks agent setups today**.
