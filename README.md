@@ -14,6 +14,12 @@ Free-tier routing · MCP infrastructure · crypto micropayments · cost control 
 
 ---
 
+**Public, keyless MCP endpoint** (also in the official MCP Registry as `io.github.rustemmustafingovua-byte/free-web-mcp`):
+
+```jsonc
+{ "mcp": { "free-web": { "type": "remote", "url": "https://48420f5263f10d.lhr.life/mcp", "enabled": true } } }
+```
+
 ## Install the whole set (one command)
 
 ```bash
@@ -46,7 +52,7 @@ Everything here is **MIT, tested, and solves a problem that breaks agent setups 
 | **[mcp-doctor](https://github.com/rustemmustafingovua-byte/mcp-doctor)** | MCP servers break silently — this says exactly which one and why | hosted diagnostics |
 | **[mcp-proxy](https://github.com/rustemmustafingovua-byte/mcp-proxy)** | one endpoint in front of many servers, with keys, limits, logs and replay | hosted relay |
 | **[tool-schema-lint](https://github.com/rustemmustafingovua-byte/tool-schema-lint)** | agents call tools wrongly because the schema is ambiguous | hosted lint API |
-| **[free-web-mcp](https://github.com/rustemmustafingovua-byte/free-web-mcp)** | web search for agents costs credits per call | hosted MCP, $0.001 / call |
+| **[free-web-mcp](https://github.com/rustemmustafingovua-byte/free-web-mcp)** | web search for agents costs credits per call | hosted MCP, $0.001 / call — also live in the official MCP Registry as a public endpoint |
 
 ### Crypto and safety
 
