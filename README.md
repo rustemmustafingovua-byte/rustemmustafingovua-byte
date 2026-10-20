@@ -70,7 +70,7 @@ Everything here is **MIT, tested, and solves a problem that breaks agent setups 
 | **[mcp-doctor](https://github.com/rustemmustafingovua-byte/mcp-doctor)** | MCP servers break silently — this says exactly which one and why | hosted diagnostics |
 | **[mcp-proxy](https://github.com/rustemmustafingovua-byte/mcp-proxy)** | one endpoint in front of many servers, with keys, limits, logs and replay | hosted relay |
 | **[tool-schema-lint](https://github.com/rustemmustafingovua-byte/tool-schema-lint)** | agents call tools wrongly because the schema is ambiguous | hosted lint API |
-| **[free-web-mcp](https://github.com/rustemmustafingovua-byte/free-web-mcp)** | web search for agents costs credits per call | hosted MCP, $0.001 / call — also live in the official MCP Registry as a public endpoint |
+| **[free-web-mcp](https://github.com/rustemmustafingovua-byte/free-web-mcp)** | web search for agents costs credits per call | hosted MCP: 30 req/hour free, then 0.001 USDC per call (x402) — payments land in the project wallet; also live in the official MCP Registry |
 
 ### Crypto and safety
 
