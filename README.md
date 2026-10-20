@@ -34,7 +34,7 @@ Everything here is **MIT, tested, and solves a problem that breaks agent setups 
 
 ### A chain that doesn't need exchanges
 
-| **[lumen-chain](https://github.com/rustemmustafingovua-byte/lumen-chain)** | a PoS chain with its own market — stake it, swap anything into it, never touch an exchange. P2P gossip network, native AMM with LP shares | LP fees, donations (USDC on Base) |
+| **[lumen-chain](https://github.com/rustemmustafingovua-byte/lumen-chain)** | a PoS chain with its own market — stake it, swap anything into it, never touch an exchange. P2P gossip, native AMM with LP shares, keeper that buys LMN via Uniswap V3 on Base | LP fees, donations (USDC on Base) |
 
 ### Agents and free AI
 
