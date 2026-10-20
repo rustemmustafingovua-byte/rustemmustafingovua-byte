@@ -2,11 +2,9 @@
 
 # rustemmustafingovua-byte
 
-**Building tools that make free AI actually usable — and charge for them in USDC.**
+**Tools that make AI agents actually usable — and charge for them in USDC.**
 
-[opencode-free-stack](https://github.com/rustemmustafingovua-byte/opencode-free-stack) ·
-[free-web-mcp](https://github.com/rustemmustafingovua-byte/free-web-mcp) ·
-[agent-x402](https://github.com/rustemmustafingovua-byte/agent-x402)
+Free-tier routing · MCP infrastructure · crypto micropayments · cost control
 
 </div>
 
@@ -14,24 +12,51 @@
 
 ## What I build
 
+Everything here is **MIT, tested, and solves a problem that breaks agent setups today**.
+
+### Agents and free AI
+
 | Project | Problem it solves | Monetisation |
 |---|---|---|
-| **[opencode-free-stack](https://github.com/rustemmustafingovua-byte/opencode-free-stack)** | free model tiers fail in three specific ways (RPM, daily pools, weight) — the router knows all of them and falls back automatically | hosted model registry, priced per call |
+| **[opencode-free-stack](https://github.com/rustemmustafingovua-byte/opencode-free-stack)** | free model tiers fail in three specific ways (RPM, daily pools, model weight) — the router knows all of them and falls back automatically | hosted model registry, priced per call |
+| **[free-tier-tracker](https://github.com/rustemmustafingovua-byte/free-tier-tracker)** | the model just answers `402` mid-run — a local ledger knows the quota is spent before it is | hosted quota service |
+| **[prompt-budget](https://github.com/rustemmustafingovua-byte/prompt-budget)** | every request re-sends the whole context — measure it before you ship it | hosted budget API |
+| **[agent-cost-guard](https://github.com/rustemmustafingovua-byte/agent-cost-guard)** | agent loops are unbounded — a proxy enforces tokens, spend and rounds | hosted guard proxy |
+
+### MCP infrastructure
+
+| Project | Problem it solves | Monetisation |
+|---|---|---|
+| **[mcp-doctor](https://github.com/rustemmustafingovua-byte/mcp-doctor)** | MCP servers break silently — this says exactly which one and why | hosted diagnostics |
+| **[mcp-proxy](https://github.com/rustemmustafingovua-byte/mcp-proxy)** | one endpoint in front of many servers, with keys, limits, logs and replay | hosted relay |
+| **[tool-schema-lint](https://github.com/rustemmustafingovua-byte/tool-schema-lint)** | agents call tools wrongly because the schema is ambiguous | hosted lint API |
 | **[free-web-mcp](https://github.com/rustemmustafingovua-byte/free-web-mcp)** | web search for agents costs credits per call | hosted MCP, $0.001 / call |
-| **[agent-x402](https://github.com/rustemmustafingovua-byte/agent-x402)** | an agent that can sign payments is one prompt injection away from an empty wallet | hosted relay, policy service |
+
+### Crypto and safety
+
+| Project | Problem it solves | Monetisation |
+|---|---|---|
+| **[agent-x402](https://github.com/rustemmustafingovua-byte/agent-x402)** | an agent that can pay can be drained by one prompt injection | hosted relay, policy service |
+| **[x402-priceboard](https://github.com/rustemmustafingovua-byte/x402-priceboard)** | what does an x402 endpoint actually cost? | hosted price API |
+| **[prompt-injection-guard](https://github.com/rustemmustafingovua-byte/prompt-injection-guard)** | the files an agent reads by itself may contain hidden instructions | hosted scanner |
+
+### Quality
+
+| Project | Problem it solves |
+|---|---|
+| **[opencode-doctor](https://github.com/rustemmustafingovua-byte/opencode-doctor)** | audit an OpenCode install in one command |
+| **[readme-doctor](https://github.com/rustemmustafingovua-byte/readme-doctor)** | why nobody is using your repository — checked in one command |
 
 ## Why crypto
 
-The buyer of an agent tool is an agent — and agents pay with x402: USDC on
-Base, per call, no account, no card, no KYC. That fits a market where
-subscriptions do not work.
+The buyer of an agent tool is an agent — and agents pay with x402: USDC on Base,
+per call, no account, no card, no KYC. That fits a market where subscriptions do
+not work.
 
 ## Principles
 
-- **Free first.** Every project has a genuinely free path; paid tiers add
-  limits, not features.
-- **Honest limits.** Free tiers fail in documented ways. Name them instead of
-  pretending they do not exist.
+- **Free first.** Every project has a genuinely free path; paid tiers add limits, not features.
+- **Honest limits.** Free tiers fail in documented ways. Name them instead of pretending they do not exist.
 - **Policy outside the model.** Anything an agent can trigger is capped in code.
 - **MIT, forever.** The business model is hosting, not the licence.
 
