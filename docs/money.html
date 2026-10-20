@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Как на этом заработать — rustemmustafingovua-byte</title>
+<style>
+  :root{--bg:#08090c;--panel:#0e1116;--line:#1d222a;--fg:#e6edf3;--muted:#8b949e;--accent:#a371f7;--ok:#3fb950;--warn:#d29922}
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(900px 500px at 10% -10%,rgba(163,113,247,.13),transparent 60%),var(--bg);color:var(--fg);font:15px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif}
+  .wrap{max-width:980px;margin:0 auto;padding:56px 22px 90px}
+  h1{font-size:32px;margin:0 0 8px;letter-spacing:-.02em}
+  h2{font-size:13px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:36px 0 12px}
+  p{color:#b6bec8}
+  .wallet{font-family:ui-monospace,Menlo,monospace;background:#11161d;border:1px solid var(--line);border-radius:10px;padding:12px 16px;font-size:14px;word-break:break-all}
+  .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+  .card{border:1px solid var(--line);border-radius:12px;padding:16px 18px;background:var(--panel)}
+  .card b{display:block;margin-bottom:6px;font-size:16px}
+  .card p{margin:6px 0;font-size:14px}
+  .tag{display:inline-block;font-size:11.5px;padding:3px 9px;border-radius:999px;background:rgba(163,113,247,.15);border:1px solid rgba(163,113,247,.35);color:var(--accent);margin-bottom:8px}
+  .tag.ok{background:rgba(63,185,80,.14);border-color:rgba(63,185,80,.4);color:var(--ok)}
+  .tag.warn{background:rgba(210,153,34,.14);border-color:rgba(210,153,34,.4);color:var(--warn)}
+  ol{margin:0;padding-left:22px;color:#b6bec8}
+  ol li{margin:7px 0}
+  code{font-family:ui-monospace,Menlo,monospace;font-size:13px;background:#11161d;padding:2px 6px;border-radius:5px}
+  pre{background:#11161d;border:1px solid var(--line);border-radius:12px;padding:14px 16px;overflow:auto;font:13px/1.6 ui-monospace,Menlo,monospace}
+  a{color:var(--accent)}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+  footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:#6e7681;font-size:13px}
+</style></head><body><div class="wrap">
+<h1>Как на этом зарабатывают</h1>
+<p>Пятнадцать open-source проектов, один публичный сервис с оплатой за запрос и своя
+цепь. Все поступления идут в один кошелёк — тот же, что импортирован в MetaMask.</p>
+
+<h2>Кошелёк</h2>
+<div class="wallet">0x8aC6a229f254980CCd3Dd35CF5E1B7c08880B40E <span style="color:var(--muted)">— сеть Base</span></div>
+
+<h2>Каналы</h2>
+<div class="grid">
+  <div class="card">
+    <span class="tag ok">работает</span>
+    <b>Платный MCP-эндпоинт (x402)</b>
+    <p>Веб-поиск и чтение страниц: 30 запросов в час бесплатно, дальше 0.001 USDC за вызов.
+       Оплата подписывается EIP-3009, деньги реально забираются на кошелёк выше.</p>
+    <p><code>/mcp</code> — бесплатно, <code>/mcp/paid</code> — за оплату.</p>
+  </div>
+  <div class="card">
+    <span class="tag ok">работает</span>
+    <b>Lumen — своя криптовалюта</b>
+    <p>PoS-цепь со своим AMM: ликвидность в протоколе, обмен без биржи, keeper сам
+       покупает LMN за USDC через Uniswap V3 на Base.</p>
+    <p>Доход: комиссия пула (0.3%) и начисления валидаторам.</p>
+  </div>
+  <div class="card">
+    <span class="tag">в работе</span>
+    <b>npmjs.org — дистрибуция</b>
+    <p>Публикация 15 пакетов даёт главный канал установки: <code>npm i -g</code>,
+       трафик из npm и GitHub, звёзды, спонсоры.</p>
+    <p>Нужен один клик в npm UI и <code>node scripts/npm-publish.mjs</code>.</p>
+  </div>
+  <div class="card">
+    <span class="tag">в работе</span>
+    <b>GitHub Sponsors и донаты</b>
+    <p>Кнопка Sponsor подключена во всех репозиториях, адрес для USDC — в каждом README.</p>
+  </div>
+  <div class="card">
+    <span class="tag warn">ждёт</span>
+    <b>Баунти за contributions</b>
+    <p>Ишью с меткой 💰 Reward в 15 репозиториях: выплату даёт тот, кто профинансировал
+       задачу через /reward, и получает её автор merged-PR.</p>
+  </div>
+  <div class="card">
+    <span class="tag">в работе</span>
+    <b>Платные тарифы агентских сервисов</b>
+    <p>agent-browser-mcp, mcp-doctor, agent-cost-guard — всё это можно продавать
+       по подписке или за запрос, тем же способом, что и x402.</p>
+  </div>
+</div>
+
+<h2>Что нужно, чтобы пошли деньги</h2>
+<ol>
+  <li>На кошелёк <code>0x8aC6…0B40E</code> — около <code>0.02 ETH</code> в сети Base: это газ для сбора USDC и для деплоя контрактов Lumen.</li>
+  <li>Один клик в npm UI: выдать токену права на организацию <code>@rustemmustafingovua-byte</code> — и <code>node scripts/npm-publish.mjs</code> опубликует все 15 пакетов.</li>
+  <li>Немного USDC в казну — чтобы наполнить пул LMN/USDC в Uniswap: без ликвидности keeper не сможет покупать.</li>
+  <li>Подтвердить sudo-режим GitHub (GitHub Mobile или код на почту) и включить Sponsors.</li>
+</ol>
+
+<h2>Команды</h2>
+<pre><code>node scripts/money.mjs            # панель денежных каналов: где сколько и что мешает
+node scripts/deploy-lumen.mjs     # деплой Lumen в Base + пул Uniswap + запись keeper.json
+node scripts/npm-publish.mjs      # публикация всех пакетов на npmjs.org
+node scripts/status-page.mjs --save  # живая страница статуса портфеля
+bash install.sh                   # установка всего набора одной командой</code></pre>
+
+<footer>MIT · <a href="https://github.com/rustemmustafingovua-byte">профиль</a> ·
+<a href="status.html">статус</a> · <a href="https://github.com/rustemmustafingovua-byte/opencode-free-stack/blob/main/BENCHMARKS.md">замеры</a></footer>
+</div></body></html>

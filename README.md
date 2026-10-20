@@ -33,6 +33,13 @@ No npm login, no token, no API keys — every CLI installs from its release tarb
 Every tool is benchmarked on this machine — medians of 3–5 runs, nothing invented:
 **[benchmarks](https://github.com/rustemmustafingovua-byte/opencode-free-stack/blob/main/BENCHMARKS.md)**
 
+## How this makes money
+
+Paid API calls (USDC on Base), the Lumen chain's own market, npm distribution, sponsors
+and bounties — all of it lands in one wallet: `0x8aC6a229f254980CCd3Dd35CF5E1B7c08880B40E`.
+
+**[how it works](https://rustemmustafingovua-byte.github.io/rustemmustafingovua-byte/money.html)**
+
 ## Live status
 
 Every project, version, CI state and running service in one page:
