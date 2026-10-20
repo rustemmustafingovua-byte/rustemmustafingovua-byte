@@ -28,6 +28,11 @@ curl -fsSL https://raw.githubusercontent.com/rustemmustafingovua-byte/opencode-f
 
 No npm login, no token, no API keys — every CLI installs from its release tarball.
 
+## Measured, not claimed
+
+Every tool is benchmarked on this machine — medians of 3–5 runs, nothing invented:
+**[benchmarks](https://github.com/rustemmustafingovua-byte/opencode-free-stack/blob/main/BENCHMARKS.md)**
+
 ## Live status
 
 Every project, version, CI state and running service in one page:
