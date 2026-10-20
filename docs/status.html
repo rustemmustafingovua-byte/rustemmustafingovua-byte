@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Статус портфеля — rustemmustafingovua-byte</title>
+<style>
+  :root{--bg:#08090c;--panel:#0e1116;--line:#1d222a;--fg:#e6edf3;--muted:#8b949e;--accent:#a371f7;--ok:#3fb950;--bad:#f85149}
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(900px 500px at 10% -10%,rgba(163,113,247,.13),transparent 60%),var(--bg);color:var(--fg);font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif}
+  .wrap{max-width:1080px;margin:0 auto;padding:56px 22px 90px}
+  h1{font-size:30px;margin:0 0 6px;letter-spacing:-.02em}
+  .sub{color:var(--muted);margin:0 0 8px}
+  .pill{display:inline-block;font-size:12px;padding:3px 10px;border-radius:999px;background:rgba(63,185,80,.14);border:1px solid rgba(63,185,80,.4);color:var(--ok);margin-bottom:22px}
+  h2{font-size:13px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:36px 0 10px}
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-weight:600;font-size:11.5px;text-transform:uppercase;letter-spacing:.04em}
+  tr:hover td{background:rgba(163,113,247,.05)}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .d{color:var(--muted);font-size:12.5px}
+  .mono{font-family:ui-monospace,Menlo,monospace;font-size:12.5px}
+  .ok{color:var(--ok)} .bad{color:var(--bad)}
+  .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+  .card{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--panel)}
+  .card.ok{border-color:rgba(63,185,80,.35)} .card.bad{border-color:rgba(248,81,73,.35)}
+  .card b{display:block;margin-bottom:4px} .card p{margin:4px 0;color:var(--muted);font-size:13px}
+  .sum{display:flex;gap:22px;flex-wrap:wrap;margin:18px 0 6px}
+  .sum div b{display:block;font-size:24px} .sum div span{color:var(--muted);font-size:12.5px}
+  footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:#6e7681;font-size:13px}
+  pre{background:#11161d;border:1px solid var(--line);border-radius:12px;padding:14px 16px;overflow:auto;font:13px/1.6 ui-monospace,Menlo,monospace}
+</style></head><body><div class="wrap">
+<h1>Статус портфеля</h1>
+<p class="sub">Живая сводка по 14 проектам: версии, CI, релизы и работающие сервисы.</p>
+<span class="pill">обновлено 2026-10-20 22:29:30 UTC</span>
+<div class="sum">
+  <div><b>0</b><span>звёзд суммарно</span></div>
+  <div><b class="ok">14/14</b><span>репозиториев с зелёным CI</span></div>
+  <div><b>2/2</b><span>живых сервисов</span></div>
+</div>
+<h2>Живые сервисы</h2>
+<div class="grid"><div class="card ok">
+    <b>free-web-mcp</b>
+    <p>публичный MCP по HTTP (streamable-http)</p>
+    <p class="mono"><a href="https://e1eaf1664c1d65.lhr.life">https://e1eaf1664c1d65.lhr.life</a></p>
+  </div>
+<div class="card ok">
+    <b>Lumen Explorer</b>
+    <p>живая цепочка: блоки, счета, пулы AMM</p>
+    <p class="mono"><a href="https://eeaf8908bbabf0.lhr.life">https://eeaf8908bbabf0.lhr.life</a></p>
+  </div></div>
+<h2>Агенты</h2>
+  <table><thead><tr><th>Проект</th><th>Версия</th><th>CI</th><th>★</th><th>Issues</th><th>Релиз</th></tr></thead><tbody>
+<tr>
+    <td><a href="https://github.com/rustemmustafingovua-byte/opencode-free-stack">opencode-free-stack</a><br><span class="d">Роутер free-моделей с авто-фолбэком по квотам и RPM</span></td>
+    <td class="mono">0.1.0</td>
+    <td class="ok">зелёный</td>
+    <td>0</td>
+    <td>3</td>
+    <td class="mono">v0.1.0</td>
+  </tr>
+</tbody></table>
+<h2>MCP</h2>
+  <table><thead><tr><th>Проект</th><th>Версия</th><th>CI</th><th>★</th><th>Issues</th><th>Релиз</th></tr></thead><tbody>
+<tr>
+    <td><a href="https://github.com/rustemmustafingovua-byte/free-web-mcp">free-web-mcp</a><br><span class="d">Веб-поиск и чтение страниц без ключей и кредитов — есть в официальном MCP Registry</span></td>
+    <td class="mono">0.2.0</td>
+    <td class="ok">зелёный</td>
+    <td>0</td>
+    <td>3</td>
+    <td class="mono">v0.2.0</td>
+  </tr>
+<tr>
+    <td><a href="https://github.com/rustemmustafingovua-byte/agent-x402">agent-x402</a><br><span class="d">Платежи за API в USDC на Base с лимитом расходов вне модели</span></td>
+    <td class="mono">0.1.0</td>
+    <td class="ok">зелёный</td>
+    <td>0</td>
+    <td>3</td>
+    <td class="mono">v0.1.0</td>
+  </tr>
+<tr>
+    <td><a href="https://github.com/rustemmustafingovua-byte/mcp-doctor">mcp-doctor</a><br><span class="d">Диагностика MCP-серверов: спавн, хендшейк, таймаут, авторизация</span></td>
+    <td class="mono">0.1.0</td>
+    <td class="ok">зелёный</td>
+    <td>0</td>
+    <td>4</td>
+    <td class="mono">v0.1.0</td>
+  </tr>
+<tr>
+    <td><a href="https://github.com/rustemmustafingovua-byte/mcp-proxy">mcp-proxy</a><br><span class="d">Один эндпоинт перед многими MCP: ключ, лимиты, журнал, повтор запросов</span></td>
+    <td class="mono">0.1.0</td>
+    <td class="ok">зелёный</td>
+    <td>0</td>
+    <td>3</td>
+    <td class="mono">v0.1.0</td>
+  </tr>
+</tbody></table>
+<h2>Качество</h2>
+  <table><thead><tr><th>Проект</th><th>Версия</th><th>CI</th><th>★</th><th>Issues</th><th>Релиз</th></tr></thead><tbody>
+<tr>
+    <td><a href="https://github.com/rustemmustafingovua-byte/tool-schema-lint">tool-schema-lint</a><br><span class="d">Линтер схем инструментов: то, из-за чего модель вызывает не то</span></td>
+    <td class="mono">0.1.0</td>
+    <td class="ok">зелёный</td>
+    <td>0</td>
+    <td>3</td>
+    <td class="mono">v0.1.0</td>
+  </tr>
+<tr>
+    <td><a href="https://github.com/rustemmustafingovua-byte/opencode-doctor">opencode-doctor</a><br><span class="d">Аудит установки OpenCode одной командой</span></td>
+    <td class="mono">0.1.0</td>
+    <td class="ok">зелёный</td>
+    <td>0</td>
+    <td>3</td>
+    <td class="mono">v0.1.0</td>
+  </tr>
+<tr>
+    <td><a href="https://github.com/rustemmustafingovua-byte/readme-doctor">readme-doctor</a><br><span class="d">Почему никто не пользуется репозиторием — и что поправить</span></td>
+    <td class="mono">0.1.0</td>
+    <td class="ok">зелёный</td>
+    <td>0</td>
+    <td>3</td>
+    <td class="mono">v0.1.0</td>
+  </tr>
+</tbody></table>
+<h2>Контроль затрат</h2>
+  <table><thead><tr><th>Проект</th><th>Версия</th><th>CI</th><th>★</th><th>Issues</th><th>Релиз</th></tr></thead><tbody>
+<tr>
+    <td><a href="https://github.com/rustemmustafingovua-byte/prompt-budget">prompt-budget</a><br><span class="d">Сколько токенов стоит запрос и сколько съедает контекст</span></td>
+    <td class="mono">0.1.0</td>
+    <td class="ok">зелёный</td>
+    <td>0</td>
+    <td>3</td>
+    <td class="mono">v0.1.0</td>
+  </tr>
+<tr>
+    <td><a href="https://github.com/rustemmustafingovua-byte/agent-cost-guard">agent-cost-guard</a><br><span class="d">Бюджет перед любым OpenAI-совместимым эндпоинтом</span></td>
+    <td class="mono">0.1.0</td>
+    <td class="ok">зелёный</td>
+    <td>0</td>
+    <td>3</td>
+    <td class="mono">v0.1.0</td>
+  </tr>
+<tr>
+    <td><a href="https://github.com/rustemmustafingovua-byte/free-tier-tracker">free-tier-tracker</a><br><span class="d">Квота free-тарифов: сколько осталось до конца</span></td>
+    <td class="mono">0.1.0</td>
+    <td class="ok">зелёный</td>
+    <td>0</td>
+    <td>3</td>
+    <td class="mono">v0.1.0</td>
+  </tr>
+<tr>
+    <td><a href="https://github.com/rustemmustafingovua-byte/x402-priceboard">x402-priceboard</a><br><span class="d">Прайс-лист x402-эндпоинтов, без траты денег</span></td>
+    <td class="mono">0.1.0</td>
+    <td class="ok">зелёный</td>
+    <td>0</td>
+    <td>3</td>
+    <td class="mono">v0.1.0</td>
+  </tr>
+</tbody></table>
+<h2>Безопасность</h2>
+  <table><thead><tr><th>Проект</th><th>Версия</th><th>CI</th><th>★</th><th>Issues</th><th>Релиз</th></tr></thead><tbody>
+<tr>
+    <td><a href="https://github.com/rustemmustafingovua-byte/prompt-injection-guard">prompt-injection-guard</a><br><span class="d">Поиск инструкций, спрятанных в файлах, которые читает агент</span></td>
+    <td class="mono">0.1.0</td>
+    <td class="ok">зелёный</td>
+    <td>0</td>
+    <td>3</td>
+    <td class="mono">v0.1.0</td>
+  </tr>
+</tbody></table>
+<h2>Lumen</h2>
+  <table><thead><tr><th>Проект</th><th>Версия</th><th>CI</th><th>★</th><th>Issues</th><th>Релиз</th></tr></thead><tbody>
+<tr>
+    <td><a href="https://github.com/rustemmustafingovua-byte/lumen-chain">lumen-chain</a><br><span class="d">PoS-цепь со своим рынком: P2P gossip, AMM, keeper через Uniswap V3</span></td>
+    <td class="mono">0.6.0</td>
+    <td class="ok">зелёный</td>
+    <td>0</td>
+    <td>2</td>
+    <td class="mono">v0.6.0</td>
+  </tr>
+</tbody></table>
+<h2>Установка всего набора</h2>
+<pre><code>curl -fsSL https://raw.githubusercontent.com/rustemmustafingovua-byte/opencode-free-stack/main/install.sh | bash</code></pre>
+<footer>rustemmustafingovua-byte · MIT · <a href="https://github.com/rustemmustafingovua-byte">профиль</a> · <a href="https://github.com/rustemmustafingovua-byte/rustemmustafingovua-byte">витрина</a></footer>
+</div></body></html>

@@ -28,6 +28,11 @@ curl -fsSL https://raw.githubusercontent.com/rustemmustafingovua-byte/opencode-f
 
 No npm login, no token, no API keys — every CLI installs from its release tarball.
 
+## Live status
+
+Every project, version, CI state and running service in one page:
+**[status](https://rustemmustafingovua-byte.github.io/rustemmustafingovua-byte/status.html)** · [raw](docs/status.html)
+
 ## What I build
 
 Everything here is **MIT, tested, and solves a problem that breaks agent setups today**.
