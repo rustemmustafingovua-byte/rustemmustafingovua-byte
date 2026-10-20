@@ -4,9 +4,11 @@
 
 **Tools that make AI agents actually usable — and charge for them in USDC.**
 
+Now also building **Lumen**: a proof-of-stake chain that ships with its own market.
+
 <p><a href="https://rustemmustafingovua-byte.github.io/rustemmustafingovua-byte/"><img src="docs/social-preview.png" alt="portfolio" width="100%"></a></p>
 
-Free-tier routing · MCP infrastructure · crypto micropayments · cost control
+Free-tier routing · MCP infrastructure · crypto micropayments · cost control · Lumen chain
 
 </div>
 
@@ -15,6 +17,10 @@ Free-tier routing · MCP infrastructure · crypto micropayments · cost control
 ## What I build
 
 Everything here is **MIT, tested, and solves a problem that breaks agent setups today**.
+
+### A chain that doesn't need exchanges
+
+| **[lumen-chain](https://github.com/rustemmustafingovua-byte/lumen-chain)** | a PoS chain with its own market — stake it, swap anything into it, never touch an exchange | LP fees, donations (USDC on Base) |
 
 ### Agents and free AI
 
