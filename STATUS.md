@@ -1,6 +1,6 @@
 # Статус портфеля
 
-_Обновлено: 2026-10-20 23:16:06 UTC_
+_Обновлено: 2026-10-20 23:23:59 UTC_
 
 | Проект | Версия | CI | ★ | Issues | Релиз |
 |---|---|---|---|---|---|
@@ -17,9 +17,10 @@ _Обновлено: 2026-10-20 23:16:06 UTC_
 | [x402-priceboard](https://github.com/rustemmustafingovua-byte/x402-priceboard) | 0.1.0 | 🟢 | 0 | 3 | v0.1.0 |
 | [prompt-injection-guard](https://github.com/rustemmustafingovua-byte/prompt-injection-guard) | 0.1.0 | 🟢 | 0 | 3 | v0.1.0 |
 | [readme-doctor](https://github.com/rustemmustafingovua-byte/readme-doctor) | 0.1.0 | 🟢 | 0 | 3 | v0.1.0 |
+| [agent-browser-mcp](https://github.com/rustemmustafingovua-byte/agent-browser-mcp) | 0.1.0 | 🟢 | 0 | 0 | v0.1.0 |
 | [lumen-chain](https://github.com/rustemmustafingovua-byte/lumen-chain) | 0.7.2 | 🟢 | 0 | 2 | v0.7.2 |
 
 ## Сервисы
 
 - **free-web-mcp** — 🟢 https://c1b19e91f2a918.lhr.life (публичный MCP по HTTP (streamable-http))
-- **Lumen Explorer** — 🟢 https://9d21c2daf8bbe7.lhr.life (живая цепочка: блоки, счета, пулы AMM)
+- **Lumen Explorer** — 🔴 недоступен (живая цепочка: блоки, счета, пулы AMM)
