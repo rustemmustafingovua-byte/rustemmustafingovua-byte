@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>rustemmustafingovua-byte — tools that make AI agents usable</title>
+<meta name="description" content="13 MIT tools for AI agents: free-model routing, MCP infrastructure, cost control, crypto micropayments. Paid per call in USDC.">
+<meta property="og:title" content="rustemmustafingovua-byte — tools that make AI agents usable">
+<meta property="og:description" content="13 MIT tools for AI agents: free-model routing, MCP infrastructure, cost control, crypto micropayments.">
+<meta property="og:image" content="https://raw.githubusercontent.com/rustemmustafingovua-byte/portfolio/main/docs/social-preview.png">
+<style>
+  :root{
+    --bg:#08090c; --panel:#0e1116; --fg:#e6edf3; --muted:#8b949e; --line:#1d222a;
+    --green:#3fb950; --blue:#2f81f7; --violet:#a371f7; --orange:#f0883e; --pink:#db61a2;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:
+      radial-gradient(900px 500px at 10% -10%, rgba(63,185,80,.10), transparent 60%),
+      radial-gradient(800px 460px at 95% 5%, rgba(47,129,247,.10), transparent 60%),
+      var(--bg);
+    color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+  code,.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  a{color:#7fd1ff;text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:1080px;margin:0 auto;padding:72px 24px 100px}
+  .pill{display:inline-flex;align-items:center;gap:8px;padding:6px 13px;border-radius:999px;
+    background:rgba(63,185,80,.12);border:1px solid rgba(63,185,80,.35);color:var(--green);
+    font-size:13px;font-weight:600;margin-bottom:22px}
+  h1{font-size:clamp(34px,6vw,58px);line-height:1.05;letter-spacing:-.035em;margin:0 0 14px}
+  h1 em{font-style:normal;color:var(--green)}
+  .lead{font-size:20px;color:#c9d1d9;max-width:760px;margin:0 0 8px}
+  .sub{color:var(--muted);max-width:760px;margin:0 0 30px}
+  .cta{display:inline-block;padding:11px 20px;border-radius:10px;background:var(--green);color:#06120a;
+    font-weight:700;margin:0 10px 10px 0}
+  .cta.ghost{background:transparent;color:var(--fg);border:1px solid var(--line)}
+  .cta.violet{background:var(--violet);color:#0d0616}
+  .stats{display:flex;gap:28px;flex-wrap:wrap;margin:28px 0 8px;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .stat b{display:block;font-size:24px;letter-spacing:-.02em}
+  .stat span{color:var(--muted);font-size:13.5px}
+  h2{font-size:15px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin:52px 0 16px}
+  .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(310px,1fr))}
+  .card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;
+    transition:border-color .15s,transform .15s}
+  .card:hover{border-color:#2c3540;transform:translateY(-2px);text-decoration:none}
+  .card h3{margin:0 0 4px;font-size:17px;letter-spacing:-.01em;color:var(--fg)}
+  .card .k{font-size:12.5px;color:var(--muted);margin:0 0 8px}
+  .card p{margin:0;color:#aeb6c0;font-size:14.2px;line-height:1.55}
+  .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:8px;vertical-align:middle}
+  .g{background:var(--green)} .b{background:var(--blue)} .v{background:var(--violet)} .o{background:var(--orange)} .p{background:var(--pink)}
+  .install{margin-top:9px;font-size:13px;color:var(--muted)}
+  .install b{color:#7ee787;font-weight:600}
+  .wallet{margin-top:46px;padding:22px;border:1px solid var(--line);border-radius:14px;background:var(--panel);
+    display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+  .wallet .mono{background:#11161d;border:1px solid var(--line);padding:10px 14px;border-radius:8px;color:#7ee787}
+  footer{margin-top:64px;padding-top:22px;border-top:1px solid var(--line);color:#6e7681;font-size:13.5px;
+    display:flex;gap:18px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="pill">● 13 MIT tools · agent infrastructure</span>
+  <h1>Tools that make AI agents <em>actually usable</em></h1>
+  <p class="lead">Free-model routing, MCP infrastructure, cost control and crypto micropayments —
+     everything that breaks an agent setup, fixed and published.</p>
+  <p class="sub">Every project is MIT, tested in CI, and solves a failure you have already had.
+     The hosted versions are billed per call in USDC (x402) — no account, no card, no KYC.</p>
+
+  <a class="cta" href="https://github.com/rustemmustafingovua-byte">GitHub profile</a>
+  <a class="cta ghost" href="https://github.com/rustemmustafingovua-byte?tab=repositories">All repositories</a>
+  <a class="cta violet" href="#portfolio">Browse the portfolio</a>
+
+  <div class="stats">
+    <div class="stat"><b>13</b><span>published tools</span></div>
+    <div class="stat"><b>68</b><span>passing tests</span></div>
+    <div class="stat"><b>13</b><span>live docs sites</span></div>
+    <div class="stat"><b>USDC</b><span>paid per call on Base</span></div>
+  </div>
+
+  <h2>Agents and free AI</h2>
+  <div class="grid">
+    <a class="card" href="https://github.com/rustemmustafingovua-byte/opencode-free-stack">
+      <h3><span class="dot g"></span>opencode-free-stack</h3>
+      <p class="k">routing · fallback · quota</p>
+      <p>Free model tiers fail in three ways — RPM caps, daily token pools, model weight. This router knows all three and moves the request to the next free model in the same turn.</p>
+      <p class="install"><b>npm i -g</b> opencode-free-stack</p>
+    </a>
+    <a class="card" href="https://github.com/rustemmustafingovua-byte/free-tier-tracker">
+      <h3><span class="dot g"></span>free-tier-tracker</h3>
+      <p class="k">quota · limits · alerts</p>
+      <p>A local ledger of what every free tier has left. It learns from the 402 you already hit and tells the agent to stop using a provider that is done for the day.</p>
+      <p class="install"><b>npm i -g</b> free-tier-tracker</p>
+    </a>
+    <a class="card" href="https://github.com/rustemmustafingovua-byte/prompt-budget">
+      <h3><span class="dot o"></span>prompt-budget</h3>
+      <p class="k">tokens · cost · context</p>
+      <p>Every request re-sends your system prompt, the tool schemas and the rules file. This measures all of it before you ship it, and says what to cut.</p>
+      <p class="install"><b>npm i -g</b> prompt-budget</p>
+    </a>
+    <a class="card" href="https://github.com/rustemmustafingovua-byte/agent-cost-guard">
+      <h3><span class="dot p"></span>agent-cost-guard</h3>
+      <p class="k">budget · proxy · guardrails</p>
+      <p>Agent loops are unbounded. A proxy in front of any OpenAI-compatible endpoint enforces a token budget, a spend budget, a round cap and a latency ceiling.</p>
+      <p class="install"><b>npm i -g</b> agent-cost-guard</p>
+    </a>
+  </div>
+
+  <h2>MCP infrastructure</h2>
+  <div class="grid">
+    <a class="card" href="https://github.com/rustemmustafingovua-byte/mcp-doctor">
+      <h3><span class="dot g"></span>mcp-doctor</h3>
+      <p class="k">diagnostics · healthcheck</p>
+      <p>MCP servers break silently. This probes every server you configured, lists its tools, measures latency and names the exact failure.</p>
+      <p class="install"><b>npm i -g</b> mcp-doctor</p>
+    </a>
+    <a class="card" href="https://github.com/rustemmustafingovua-byte/mcp-proxy">
+      <h3><span class="dot b"></span>mcp-proxy</h3>
+      <p class="k">proxy · auth · logs</p>
+      <p>One endpoint in front of many MCP servers: a client key, per-client rate limits, an append-only log, replay of past calls, routing by server.</p>
+      <p class="install"><b>npm i -g</b> mcp-proxy</p>
+    </a>
+    <a class="card" href="https://github.com/rustemmustafingovua-byte/tool-schema-lint">
+      <h3><span class="dot b"></span>tool-schema-lint</h3>
+      <p class="k">linting · tool-use</p>
+      <p>Agents call tools wrongly because the schema is ambiguous. This lints the descriptions, the optional parameters and the free-form strings, and rewrites them.</p>
+      <p class="install"><b>npm i -g</b> tool-schema-lint</p>
+    </a>
+    <a class="card" href="https://github.com/rustemmustafingovua-byte/free-web-mcp">
+      <h3><span class="dot b"></span>free-web-mcp</h3>
+      <p class="k">mcp · web · zero credits</p>
+      <p>Web search and page reading for agents with no API credits: r.jina.ai, Wikipedia, Hacker News and GitHub behind one MCP server.</p>
+      <p class="install"><b>npm i -g</b> free-web-mcp</p>
+    </a>
+  </div>
+
+  <h2>Crypto and safety</h2>
+  <div class="grid">
+    <a class="card" href="https://github.com/rustemmustafingovua-byte/agent-x402">
+      <h3><span class="dot v"></span>agent-x402</h3>
+      <p class="k">x402 · usdc · policy</p>
+      <p>Pay per API call in USDC with no account and no key — and a spend policy (daily cap, per-request cap, payee allow-list) that a prompt injection cannot talk its way past.</p>
+      <p class="install"><b>npm i -g</b> agent-x402</p>
+    </a>
+    <a class="card" href="https://github.com/rustemmustafingovua-byte/x402-priceboard">
+      <h3><span class="dot v"></span>x402-priceboard</h3>
+      <p class="k">pricing · discovery</p>
+      <p>Every x402 server answers the first request with its price, network and payee. This builds the price board without paying anything.</p>
+      <p class="install"><b>npm i -g</b> x402-priceboard</p>
+    </a>
+    <a class="card" href="https://github.com/rustemmustafingovua-byte/prompt-injection-guard">
+      <h3><span class="dot p"></span>prompt-injection-guard</h3>
+      <p class="k">security · scanner</p>
+      <p>The files an agent reads by itself may contain hidden instructions. This scans rules, skills and tool descriptions for overrides, invisible characters and embedded commands.</p>
+      <p class="install"><b>npm i -g</b> prompt-injection-guard</p>
+    </a>
+  </div>
+
+  <h2>Quality</h2>
+  <div class="grid">
+    <a class="card" href="https://github.com/rustemmustafingovua-byte/opencode-doctor">
+      <h3><span class="dot o"></span>opencode-doctor</h3>
+      <p class="k">audit · diagnostics</p>
+      <p>One command tells you whether the OpenCode install is healthy: config, credentials, whitelists, paid models in the picker, MCP servers, skills.</p>
+      <p class="install"><b>npm i -g</b> opencode-doctor</p>
+    </a>
+    <a class="card" href="https://github.com/rustemmustafingovua-byte/readme-doctor">
+      <h3><span class="dot o"></span>readme-doctor</h3>
+      <p class="k">docs · audit</p>
+      <p>Why nobody is using your repository: install line, usage, license, badges, broken links, unclosed fences, placeholders — with a score and the next line to write.</p>
+      <p class="install"><b>npm i -g</b> readme-doctor</p>
+    </a>
+  </div>
+
+  <div class="wallet">
+    <div>
+      <div style="color:var(--muted);font-size:13px;margin-bottom:6px">Support the work — USDC on Base</div>
+      <div class="mono">0x8aC6a229f254980CCd3Dd35CF5E1B7c08880B40E</div>
+    </div>
+    <a class="cta ghost" href="https://github.com/rustemmustafingovua-byte/rustemmustafingovua-byte">Profile</a>
+  </div>
+
+  <footer>
+    <span>MIT · everything here is free to use, modify and self-host</span>
+    <span>·</span>
+    <a href="https://github.com/rustemmustafingovua-byte?tab=repositories">Repositories</a>
+    <span>·</span>
+    <a href="https://base.org">Base</a>
+  </footer>
+</div>
+</body>
+</html>

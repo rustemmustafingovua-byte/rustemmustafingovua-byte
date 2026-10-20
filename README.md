@@ -4,6 +4,8 @@
 
 **Tools that make AI agents actually usable — and charge for them in USDC.**
 
+<p><a href="https://rustemmustafingovua-byte.github.io/rustemmustafingovua-byte/"><img src="docs/social-preview.png" alt="portfolio" width="100%"></a></p>
+
 Free-tier routing · MCP infrastructure · crypto micropayments · cost control
 
 </div>
