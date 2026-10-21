@@ -1,11 +1,11 @@
 # Статус портфеля
 
-_Обновлено: 2026-10-21 01:31:40 UTC_
+_Обновлено: 2026-10-21 02:32:07 UTC_
 
 | Проект | Версия | CI | ★ | Issues | Релиз |
 |---|---|---|---|---|---|
 | [opencode-free-stack](https://github.com/rustemmustafingovua-byte/opencode-free-stack) | 0.1.0 | 🟢 | 0 | 3 | v0.1.0 |
-| [free-web-mcp](https://github.com/rustemmustafingovua-byte/free-web-mcp) | 0.6.0 | 🟢 | 0 | 3 | v0.6.0 |
+| [free-web-mcp](https://github.com/rustemmustafingovua-byte/free-web-mcp) | 0.7.0 | 🟢 | 0 | 3 | v0.7.0 |
 | [agent-x402](https://github.com/rustemmustafingovua-byte/agent-x402) | 0.1.0 | 🟢 | 0 | 3 | v0.1.0 |
 | [mcp-doctor](https://github.com/rustemmustafingovua-byte/mcp-doctor) | 0.1.0 | 🟢 | 0 | 4 | v0.1.0 |
 | [mcp-proxy](https://github.com/rustemmustafingovua-byte/mcp-proxy) | 0.1.0 | 🟢 | 0 | 3 | v0.1.0 |
