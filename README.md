@@ -28,6 +28,13 @@ curl -fsSL https://raw.githubusercontent.com/rustemmustafingovua-byte/opencode-f
 
 No npm login, no token, no API keys — every CLI installs from its release tarball.
 
+## Try it in one command
+
+```bash
+git clone https://github.com/rustemmustafingovua-byte/opencode-free-stack
+cd opencode-free-stack && bash demo.sh
+```
+
 ## Measured, not claimed
 
 Every tool is benchmarked on this machine — medians of 3–5 runs, nothing invented:

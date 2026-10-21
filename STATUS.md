@@ -1,11 +1,11 @@
 # Статус портфеля
 
-_Обновлено: 2026-10-20 23:30:41 UTC_
+_Обновлено: 2026-10-21 00:31:11 UTC_
 
 | Проект | Версия | CI | ★ | Issues | Релиз |
 |---|---|---|---|---|---|
 | [opencode-free-stack](https://github.com/rustemmustafingovua-byte/opencode-free-stack) | 0.1.0 | 🟢 | 0 | 3 | v0.1.0 |
-| [free-web-mcp](https://github.com/rustemmustafingovua-byte/free-web-mcp) | 0.4.0 | 🟢 | 0 | 3 | v0.4.0 |
+| [free-web-mcp](https://github.com/rustemmustafingovua-byte/free-web-mcp) | 0.5.1 | 🟢 | 0 | 3 | v0.5.1 |
 | [agent-x402](https://github.com/rustemmustafingovua-byte/agent-x402) | 0.1.0 | 🟢 | 0 | 3 | v0.1.0 |
 | [mcp-doctor](https://github.com/rustemmustafingovua-byte/mcp-doctor) | 0.1.0 | 🟢 | 0 | 4 | v0.1.0 |
 | [mcp-proxy](https://github.com/rustemmustafingovua-byte/mcp-proxy) | 0.1.0 | 🟢 | 0 | 3 | v0.1.0 |
@@ -23,4 +23,4 @@ _Обновлено: 2026-10-20 23:30:41 UTC_
 ## Сервисы
 
 - **free-web-mcp** — 🔴 недоступен (публичный MCP по HTTP (streamable-http))
-- **Lumen Explorer** — 🟢 https://bae6a4f76cbdee.lhr.life (живая цепочка: блоки, счета, пулы AMM)
+- **Lumen Explorer** — 🔴 недоступен (живая цепочка: блоки, счета, пулы AMM)
