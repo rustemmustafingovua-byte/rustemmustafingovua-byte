@@ -79,6 +79,7 @@ Everything here is **MIT, tested, and solves a problem that breaks agent setups 
 | **[mcp-proxy](https://github.com/rustemmustafingovua-byte/mcp-proxy)** | one endpoint in front of many servers, with keys, limits, logs and replay | hosted relay |
 | **[tool-schema-lint](https://github.com/rustemmustafingovua-byte/tool-schema-lint)** | agents call tools wrongly because the schema is ambiguous | hosted lint API |
 | **[free-web-mcp](https://github.com/rustemmustafingovua-byte/free-web-mcp)** | web search for agents costs credits per call | hosted MCP: 30 req/hour free, then 0.001 USDC per call (x402) — payments land in the project wallet; also live in the official MCP Registry |
+| **[perps-funding-pulse](https://github.com/rustemmustafingovua-byte/perps-funding-pulse)** | a trading agent needs funding rates and open interest, but every venue wants a key and a subscription | live API: Binance/Bybit/OKX data, 0.001 USDC or ETH per call over x402 on Base — client pays the gas |
 
 ### Crypto and safety
 
