@@ -73,6 +73,7 @@ Everything here is **MIT, tested, and solves a problem that breaks agent setups 
 
 | Project | Problem it solves | Monetisation |
 |---|---|---|
+| **[wallet-hygiene](https://github.com/rustemmustafingovua-byte/wallet-hygiene)** | lost keys and forgotten wallets are the usual way to lose money — this finds the leaks and the leftovers | donations |
 | **[agent-browser-mcp](https://github.com/rustemmustafingovua-byte/agent-browser-mcp)** | an agent that can only call APIs cannot read the pages that matter — this gives it a real browser, with challenge handling under a budget | hosted MCP, free tier |
 | **[mcp-doctor](https://github.com/rustemmustafingovua-byte/mcp-doctor)** | MCP servers break silently — this says exactly which one and why | hosted diagnostics |
 | **[mcp-proxy](https://github.com/rustemmustafingovua-byte/mcp-proxy)** | one endpoint in front of many servers, with keys, limits, logs and replay | hosted relay |
