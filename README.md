@@ -69,6 +69,12 @@ Everything here is **MIT, tested, and solves a problem that breaks agent setups 
 | **[prompt-budget](https://github.com/rustemmustafingovua-byte/prompt-budget)** | every request re-sends the whole context — measure it before you ship it | hosted budget API |
 | **[agent-cost-guard](https://github.com/rustemmustafingovua-byte/agent-cost-guard)** | agent loops are unbounded — a proxy enforces tokens, spend and rounds | hosted guard proxy |
 
+### Field inspection on Android
+
+| Project | Problem it solves | Monetisation |
+|---|---|---|
+| **[roadscan-ai-agent](https://github.com/rustemmustafingovua-byte/roadscan-ai-agent)** | road services still measure potholes by hand and write estimates in spreadsheets — an offline Android agent finds defects from camera + accelerometer + GNSS and produces a costed PDF/Excel/GeoJSON in hryvnia (VAT 20%, DSTU terms), plus a video studio that turns raw footage into a captioned defect reel | per-organisation offline licence (Pilot / Pro / Enterprise) |
+
 ### MCP infrastructure
 
 | Project | Problem it solves | Monetisation |

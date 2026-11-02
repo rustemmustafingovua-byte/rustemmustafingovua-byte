@@ -1,6 +1,6 @@
 # Статус портфеля
 
-_Обновлено: 2026-10-21 02:32:07 UTC_
+_Обновлено: 2026-10-22 22:55:30 UTC_
 
 | Проект | Версия | CI | ★ | Issues | Релиз |
 |---|---|---|---|---|---|
@@ -20,6 +20,7 @@ _Обновлено: 2026-10-21 02:32:07 UTC_
 | [wallet-hygiene](https://github.com/rustemmustafingovua-byte/wallet-hygiene) | 0.1.0 | 🟢 | 0 | 0 | v0.1.0 |
 | [agent-browser-mcp](https://github.com/rustemmustafingovua-byte/agent-browser-mcp) | 0.1.0 | 🟢 | 0 | 0 | v0.1.0 |
 | [lumen-chain](https://github.com/rustemmustafingovua-byte/lumen-chain) | 0.7.2 | 🟢 | 0 | 2 | v0.7.2 |
+| [roadscan-ai-agent](https://github.com/rustemmustafingovua-byte/roadscan-ai-agent) | 0.1.0 | 🟢 | 0 | 0 | — |
 
 ## Сервисы
 
